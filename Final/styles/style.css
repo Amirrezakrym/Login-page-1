@@ -1,0 +1,95 @@
+ @import url(reset.css);
+ 
+@font-face {
+    font-family: vazirNormal;
+    src: url('../fonts/vazir.eot');
+    src: url('../fonts/vazir.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir.woff2') format('woff2'), url('../fonts/vazir.woff') format('woff'), url('../fonts/vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: vazirBold;
+    src: url('../fonts/vazir-bold.eot');
+    src: url('../fonts/vazir-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/vazir-bold.woff2') format('woff2'), url('../fonts/vazir-bold.woff') format('woff'), url('../fonts/vazir-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+/* General code */
+body{
+	font-family:vazirNormal;
+	direction:rtl;
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,60,239,1) 37%, rgba(0,212,255,1) 100%);
+	}
+	*{
+		box-sizing:border-box;
+		}
+  input{ 
+  	font-family:vazirNormal;
+  	}
+/* Section*/
+#login{
+	border-radius:3px;
+	width:400px;
+	margin:200px auto 0 auto;
+	background-color:#fff;
+	padding:60px;
+	}
+#login #title{
+	font-family:vazirBold;
+	color:#1E88E5;
+	font-size:23px;
+	}
+#login form{
+	margin-top:20px;
+	}
+#login .password-container{
+    margin-top:10px;
+    position: relative;
+	}
+#login .lable{
+	display:block;
+	font-size:20px;
+	padding:8px 0;
+	font-size:14px;
+	}
+#login .input{
+	border:none;
+	width:100%;
+	background-color:#e4e4e4;
+	padding:10px;
+	border-radius:3px;
+	}
+#login .input:focus{
+	 outline:none;
+	background-color:#e0e0e0;
+	}
+#login .login-eye{
+	width:18px;
+	position:absolute;
+	bottom:11px;
+	left:5px;
+	opacity:0.6;
+	display:none;
+	}
+#login .login-eye:hover{
+	opacity:0.8;
+	cursor:pointer;
+	}
+
+#login .btn{
+	border:none;
+	width:100%;
+	padding:10px;
+	color:#fff;
+	margin-top:40px;
+	font-size:14px;
+	background-color:#1e88e5;
+	}
+#login .btn:hover{
+	cursor:pointer;
+    background-color:#1b7bcc;
+	}
+	
